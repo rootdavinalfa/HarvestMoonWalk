@@ -1,0 +1,433 @@
+{
+  "normal_chara": [
+    {
+      "name": "Jeff",
+      "birthday": "29 Winter",
+      "description": "Jeff adalah pemilik supermarket lokal yang agak pasif. Dia pria yang sangat pemalu dan mudah dibodohi sehingga istrinya seringkali jengkel padanya karena sering dihutangi oleh penduduk desa. Jeff tampaknya takut pada istrinya, dia takut istrinya marah padanya",
+      "routine": "Selasa : \n (6 am – 10 am) Di dalam Supermarket \n (10.50 am – 1 pm) Di dalam Gereja \n (1.45 pm – 4.10 pm) Di Klinik \n (4.30 pm – seterusnya) Di Supermarket \n Minggu : \n (6 am – 1.10 pm) Di Supermarket \n (2 pm – 4 pm) Di Penginapan \n (4.50 pm – seterusnya) Di Supermarket",
+      "great_gift": "Bamboo Shoot,Bodigizer, Bodigizer XL, Turbojolt, Turbojolt XL, Fruit Juice, Vegetable Juice, Mixed Juice, Tomato Juice, Apple Pie, Bamboo Rice, Truffle Rice, Grape Jam, Cookie, Chocolate Cookie, Chocolate Cake, Relaxation Tea, Fruit Latte, Vegetable Latte, Mixed Latte.",
+      "good_gift": "Tomato, Green Pepper, Pink Cat Flower, Orange Cup Fruit, Apple, Truffle, Wild Grape, Blue Grass, Red Grass, Spa-Boiled Egg, Mayonnasie, Milk, Honey, SUGDW Apple, Grape Juice, Fish, Veggie Pancake, Fried Rice, Stir Fry, Miso Soup, Stew, Curry, Salad, Sandwich, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Egg, Boiled Egg, Hot Milk, Omelet, Mushroom Rice, Butter, Sushi, Chirashi Sushi, Grilled Fish, Curry Noodles, Tempura Noodles, Fried Noodles, Tempura, Ice Cream, Cake, Golden Egg, Chocolate, Relaxation Tea Leaves, Rice Omelet, Ketchup.",
+      "dislike": "Mystrile, Orichalcum, Adamantite, Ketchup Recipe, Gold Ore, Silver Ore, Copper Ore, Wine, Bandage.",
+      "disgusting": "Stone, Branch, Lumber, Weed, Poisonous Mushroom, Fodder, Chicken Feed, Fish Food, Food Fiasco, Garbage, Fries Recipes, Dead Weeds, Winter Stone, Winter Lumber, Winter Branch."
+    },
+    {
+      "name": "Sasha",
+      "birthday": "30 Spring",
+      "description": "Sasha adalah ibunya Karen dan Istrinya Jeff. Sasha merupakan salah satu penduduk desa yang jarang sekali berbicara, hanya berbicara seperlunya saja (tidak cerewet). Sasha sering sekali jengkel pada Jeff karena dia membiarkan para penduduk desa belanja di supermarket dengan memasukkan ke daftar bon (hutang). Sasha, Manna, dan Anna merupakan satu kelompok ibu-ibu gosip yang ada di desa Mineral.",
+      "routine": "Kamu bisa menemuinya setiap hari di dalam rumahnya yang berada di supermarket. Berikut jadwal hariannya : \n Kecuali Selasa dan Minggu : \n (6 am – 1 pm) Di rumahnya, di samping supermarket. \n (1.30 pm – 4 pm) Di alun-alun desa atau Rose Square. \n (4.45 pm – Seterusnya) Berada di dalam rumah. \n Selasa dan Minggu : \n (6 am – 7 am) Di dalam Supermarket \n (8 am – 10 am) Di perkebunan Yodel \n (10.50 am – 1 pm) Di perkebunan Poultry \n (1.50 pm – 4 pm) Di rumah Ellen \n (4.40 pm – Seterusnya) Di dalam rumah",
+      "great_gift": "Cookie, Chocolate Cookie, Chocolate Cake, Chocolate.",
+      "good_gift": "Strawberry, Tomato, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Ketchup Recipe, Orichalcum, Milk, Wool, Yarn Ball, Honey, Grape Juice, Oil, Curry Powder, Flour, Miso Soup, Fruit Juice, Vegetable Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Happy Eggplant, Bamboo Rice, Truffle Rice, Jam Bun, Raisin Bread, Bandage, Relaxation Tea, Fruit Latte, Vegetable Latte, Mixed Latte.",
+      "dislike": "Mystrile, Adamantite, Gold Ore, Silver Ore, Copper Ore, Egg, Cheese, Sushi, Chirashi Sushi, Sashimi, Grilled Fish",
+      "disgusting": "Stone, Branch, Lumber, Weed, Poisonous Mushroom, Fodder, Chicken Feed, Fish Food, Food Fiasco, Fries Recipe, Garbage, Dead Weed, Winter Stone, Winter Branch, Winter Lumber"
+    },
+    {
+      "name": "Saibara",
+      "birthday": "11 Spring",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Gray",
+      "birthday": "6 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Doug",
+      "birthday": "11 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Dokter Tim",
+      "birthday": "17 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Pastor Carter",
+      "birthday": "20 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Cliff",
+      "birthday": "6 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Basil",
+      "birthday": "11 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Anna",
+      "birthday": "23 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Barley",
+      "birthday": "17 Spring",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "May",
+      "birthday": "26 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Mayor Thomas",
+      "birthday": "25 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Lillia",
+      "birthday": "19 Spring",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Rick",
+      "birthday": "27 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Duke",
+      "birthday": "15 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Manna",
+      "birthday": "11 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Ellen",
+      "birthday": "13 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Gotz",
+      "birthday": "2 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Kai",
+      "birthday": "22 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Officer Harris",
+      "birthday": "4 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Kano",
+      "birthday": "2 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Louis",
+      "birthday": "2 Spring",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Greg",
+      "birthday": "29 Spring",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Zack",
+      "birthday": "29 Summer",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Stu",
+      "birthday": "5 Fall",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Won",
+      "birthday": "19 Winter",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Harvest Goddess",
+      "birthday": "-",
+      "description": "",
+      "routine": "",
+      "great_gift": "",
+      "good_gift": "",
+      "dislike": "",
+      "disgusting": ""
+    },
+    {
+      "name": "Kappa",
+      "birthday": "-",
+      "description": "",
+      "routine": "",
+      "great_gift": "Cucumber",
+      "good_gift": "Cucumber",
+      "dislike": "-",
+      "disgusting": "-"
+    },
+    {
+      "name": "Gourmet",
+      "birthday": "-",
+      "description": "",
+      "routine": "",
+      "great_gift": "-",
+      "good_gift": "-",
+      "dislike": "-",
+      "disgusting": "-"
+    }
+  ],
+  "maiden_chara": [
+    {
+      "name": "Ann",
+      "birthday": "17 Summer (tanggal 22 Summer jika ulangtahunmu tanggal 17 Summer)",
+      "description": "Ann adalah gadis berambut merah yang terlihat lebih manis jikakamu sudah akrab dengannya. Hari ulangtahunnya tanggal 17 Summer (tanggal 22 Summer jika ultahmu tanggal 17 Summer). Ann adalah gadis yang cukup tomboy. Ibunya sudah meninggal dan sekarang ia membantu ayahnya mengelola penginapan. Walaupun ayahnya menginginkan ia menikah, tetapi ia menolak dan ingin tetap sendiri. Tetapi jangan khawatir karena ia akan menerima tawaranmu untuk menikah jika hatinya sudah berwarna merah. \n Ann memiliki rambut merah yang diikat dan dia memakai baju biru dengan lengan berwarna kuning. Dia sangat baik dan periang, senang menghibur orang yang sedang sedih. Ann menyukai binatang dan suka memasak. Dia hampir selalu memenangkan festival memasak, jika bukan ayahnya yang menang. Ann juga suka menikmati pemandangan di sekitar air terjun, setiap pagi jika cuaca cerah, dia selalu ada di kolam pemandian air panas menikmati sejuknya udara gunung.",
+      "routine": "Tempat Untuk Menemuinya : \n Setiap hari : \n (6 am – 7 am) Di penginapan \n (7.30 am – 10 am) Di pemandian air panas \n (10.30 am – 1 pm) Di lantai 2 penginapan \n (1 pm – 4 pm) Di lantai 1 penginapan \n (4 pm – 7 pm) Di lantai 2 penginapan \n (7 pm – Seterusnya) Di lantai 1 penginapan \n Hari hujan : \n (6 am – 7 am) Di penginapan \n (7 am – 10 am) Di kamarnya \n (10 am – 1 pm) Di lantai 2 penginapan \n (1 pm – 4 pm) Di lantai 1 penginapan \n (4 pm – 7 pm) Di lantai 2 penginapan \n (7 pm – Seterusnya) Di lantai 1 penginapan",
+      "great_gift": "Spa-Boiled Egg, Veggie Pancake, Fried Rice, Stir Fry, Stew, Curry, Salad, Sandwich, Strawberry Milk, Pumpkin Pudding, Roasted Potatoes, Omelet, Cheesecake, Cheese Fondue, Apple Pie, Bamboo Rice, Mushroom Rice, Truffle Rice, Sushi, Grilled Fish, Noodles Tempur, Fried Noodles, Ice Cream, Cake, Chocolate, Chocolate Cake, Rice Omelet.",
+      "good_gift": "Strawberry, Tomato, Pineapple, Apple, Wild Grape, Ketchup Recipe, Egg, Milk, Cheese, SUGDW Apple, Rice Ball, Bread, Grape Juice, Large Fish, Miso Soup, Fruit Juice, Vegetable Juice, Mixed Juice, Pickled Turnips, Fries, Pickles, Strawberry Jam, Tomato Juice, Popcorn, Happy Eggplant, Sweet Potato (Masakan), Greens, Scrambld Egg, Boiled Egg, Chirashi Sushi, Jam Bun, Raisin Bread, Dinner Roll, Sashimi, Pizza, Noodles, Curry Noodles,mTempura, Cookie, Golden Egg, Chocolate Cookie, Bandage, Relaxation Tea, Fruit Latte, Veggie Latte, Mixed Latte, Jewelry.",
+      "dislike": "Branch, Lumber, Blue Grass, Green Grass, Bodigizer, Bodigizer XL, Turbojolt, Turbojolt XL, Medium Fish, Small Fish, Food Fiasco, Winter Lumber, Winter Branch.",
+      "disgusting": "tone, Weeds, Poisonous Mushroom, Red Grass, Mystrile, Orichalcum, Fodder, Chicken Feed, Gold Ore, Silver Ore, Copper Ore, Fish Food, Garbage, Fries Recipe, Dead Weeds, Winter Stone.",
+      "rival": "Jika kamu tidak menikahi Ann, Cliff akan menikahinya (kecuali jika kamu tidak memberikan pekerjaan pada Cliff pada musim gugur sehingga Cliff akan meninggalkan desa dan tidak akan kembali kecuali pada hari kamu dievaluasi."
+    },
+    {
+      "name": "Elli",
+      "birthday": "16 Spring (tanggal 20 Spring jika ulangtahunmu tanggal 16 Spring)",
+      "description": "Gadis ini berambut pendek berwarna coklat. Ia adalah gadis manis yang tinggal bersama dengan nenek dan adiknya Stu. Dia sangat senang membantu orang-orang yang datang ke klinik. Ia selalu menanyakan apakah ada keluhan dan ia akan memberikan pertolongan. Ulangtahunnya jatuh pada tanggal 16 Sping (tanggal 20 Spring jika kamu berulangtahun di tanggal 16 Spring). Elli adalah seorang perawat. Dia bekerja di klinik dan selalu berada disana kecuali hari Rabu. Orangtuanya telah tiada dan dia harus menjaga neneknya dan adik lakilakinya Stu.",
+      "routine": "Tempat Untuk Menemuinya : \n Setiap hari berada di klinik kecuali Rabu. \n Rabu : \n (6 am – 9 am) Di klinik \n (9.45 am – 1 pm) Di rumah Ellen \n (1.40 pm – 4 pm) Di supermarket \n (4.45 pm – 7.10 pm) Di rumah Ellen \n (7.55 pm – Seterusnya) Di klinik",
+      "great_gift": "Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Ketchup Recipe, bandages, Jewelry.",
+      "good_gift": "Strawberry, Blue Grass, Milk, Grape Juice, Fish, Stir Fry, Salad, Vegetable Juice, Sandwich, Strawberry Jam, Popcorn, Pumpkin Pudding, Sweet Potato (Masakan), Greens, Hot Milk, Cheesecake, Apple Jam, Apple Pie, Grape Jam, Chirashi Sushi, Sashimi, Grilled Fish, Cookies, Ice Cream, Cake, Chocolate, Chocolate Cookies, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Fruit Latte, Veggie Latte, Mixed Latte.",
+      "dislike": "Onion, Pumpkin, Green Pepper, Wine, Fried Rice, Scrambled Eggs, Omelet, Omelet Rice.",
+      "disgusting": "Stone, Branch, Lumber, Weeds, Poisonous Mushroom, Fodder, Chicken Feed, Fish Food, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch, Winter Lumber.",
+      "rival": "Dokter (jika kamu tidak menikahi Elli maka Dokter akan menikahinya)."
+    },
+    {
+      "name": "Karen",
+      "birthday": "15 Fall (tanggal 23 Fall jika ulangtahunmu tanggal 15 Fall)",
+      "description": "Gadis ini berambut pirang. Dia memakai rompi dengan rok dan ikan pinggang. Karen adalah anak dari pemilik supermarket. Dia terkenal memiliki selera yang tinggi, merupakan gadis yang paling sulit untuk didekat. Ulangtahun pada tanggal 15 Fall (tanggal 23 Fall jika ulangtahunmu tanggal 15 Fall). Dibandingkan dengan gadis yang lainnya, Karen memiliki sikap paling dewasa. Dia tidak menyukai halhal yang disukai orangtuanya dan biasanya berdebat dengan mereka. Dia juga kuatir kalau toko ayahnya tidak lengkap. Dia senang berada di pantai dengan Rick, Kai, dan popuri pada saat Summer. Walaupun awalnya dia ketus tetapi akan menjadi semakin menyenangkan jika kamu meningkatkan rasa sukanya padamu. Karen suka minum-minum, dia senang anggur tapi dia tidak bisa memasak.",
+      "routine": "Tempat Untuk Menemuinya : \n Senin, Rabu – Sabtu : \n (6 am – 8 am) Di dalam supermarket \n (8 am – 10.30 am) Di luar supermarket \n (10.30 am – 1 pm) Di rumahnya \n (1 pm – 4 pm) Di supermarket \n (4 pm – 7 pm) Di rumahnya \n (7.30 pm – 10 pm) Di pantai \n (10.50 pm – Seterusnya) Di rumahnya \n Hari hujan (Senin, Rabu – Sabtu) : \n (6 am – 8 am) Di rumahnya \n (8 am – 10 am) Di supermarket \n (10 am – 1 pm) Di rumahnya \n (1 pm – 4 pm) Di supermarket \n (4 pm – Seterusnya) Di rumahnya \n Selasa : \n (6 am – 8 am) Di supermarket \n (8 am – 10.30 am) Di luar supermarket \n (10.30 am – 1 pm) Di supermarket \n (2 pm – 4 pm) Di kolam pemandian air panas \n (5 pm – 7 pm) Di supermarket \n (7.30 pm – 10 pm) Di penginapan \n (10.30 pm – Seterusnya) Di rumahnya \n Hari hujan (Selasa) : \n (6 am – 1 pm) Di supermarket \n (2 pm – 4 pm) Di rumahnya Gotz \n (5 pm – 7 pm) Di rumahnya \n (7.30 pm – 10 pm) Di penginapan \n (10.30 pm – Seterusnya) Di rumahnya \n Minggu : \n (6 am – 7 pm) Di supermarket \n (7.30 pm – 10 pm) Di penginapan \n (10.30 pm – Seterusnya) Di rumahnya",
+      "great_gift": "Truffle, Wine, Fries, Popcorn, Sashimi, Pizza",
+      "good_gift": "Potato, Cucumber, Corn, Pumpkin, Eggplant, Sweet Potato, Spinach, Green Pepper, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Egg, Spa-Boiled Egg, Mayonnaise, Cheese, Stir Fry, Miso Soup, Salad, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Butter, Cheese Fondue, Golden Egg, Jewelry.",
+      "dislike": "Weeds, Apple, Blue Grass, Red Grass, Green Grass, Mystrile, Orichalcum, Ketchup Recipe, Gold Ore, Silver Ore, Copper Ore, Honey, SUGDW Apple, Bodigizer, Bodigizer XL, Turbojolt, Turbojolt XL, Grape Juice, Strawberry Jam, Strawberry Milk, Roasted Potatoes, Grape Jam, Jam Bun, Raisin Bread, Bandage, Relaxation Tea, Fruit Latte, Mixe Latte, Dead Weeds.",
+      "disgusting": "Stone, Branch, Lumber, Poisonous Mushroom, Adamantite, Fodder, Chicken Feed, Fish Food, Pumpkin Pudding, Sweet Potato (dish), Cheesecake, Apple Jam, Apple Pie, Cookie, Ice Cream, Cake, Empty Can, Fries Recipe, Chocolate, Chocolate Cookie, Chocolate Cake, Winter Stone, Winter Branch, Winter Lumber.",
+      "rival": "Sainganmu adalah Rick (kakaknya Popuri). Rick akan menikahi Karen jika kamu tidak menikah dengan Karen."
+    },
+    {
+      "name": "Mary",
+      "birthday": "20 Winter (tanggal 25 Winter jika ulangtahunmu tanggal 20 Winter)",
+      "description": "Mary adalah gadis penjaga perpustakaan yang pendiam. Mary berambut hitam dan berkacamata. Dia menjaga perpustakaan yang sebagian besar isi bukunya adalah hasil karangan ayahnya. Mary juga menyumbangkan satu buah buku yang ia tulis sendiri, dan di buku tersebut dia menceritakan sosok Gray meskipun dia tidak memberitahukannya pada orang lain. Mary dan keluarganya berasal dari kota. Mereka memilih untuk tinggal di Desa Mineral karena ayahnya sedang mengumpulkan informasi mengenai tumbuhan dan hewan ternak yang ada di Desa Mineral. Dia berulangtahun pada tanggal 20 Winter (tanggal 25 Winter jika ulangtahunmu tanggal 20 Winter). Mary sangat baik dan dermawan, dia senang membantu orang lain dan dilakukan dengan sangat sopan. Bagi orang yang suka gadis pintar dan baik hati, Mary merupakan pilihan yang cocok.",
+      "routine": "Tempat Untuk Menemuinya : \n Setiap hari kecuali Senin : \n (6 am – 10 am) Di rumahnya \n (10 am – 4 pm) Di perpustakaan \n (4.50 pm – Seterusnya) Di rumahnya \n Senin : \n (6 am – 7 am) Di rumahnya \n (8 am – 10 am) Di ladang bunga Bukit Ibu \n (11 am – 1 pm) Di rumahnya \n (1.40 pm – 4 pm) Di supermarket \n (4.50 pm – Seterusnya) Di rumahnya \n Hari hujan (Senin) : \n (6 am – 1 pm) Di rumahnya \n (1.40 pm – 4 pm) Di supermarket \n (4.50 pm – Seterusnya) Di rumahnya",
+      "great_gift": "Bamboo Shoot, Mushroom, Poisonous Mushroom, Truffle, Blue Grass, Red Grass, Green Grass, Bodigizer, Bodigizer XL, Turbojolt, Turbojolt XL, Vegetable Juice, Tomato Juice, Pumpkin Pudding, Cheese Fondue, Bamboo Rice, Mushroom Rice, Truffle Rice, Grape Jam, Raisin Bread, Relaxation Tea Leaves, Relaxation Tea, Veggie Latte.",
+      "good_gift": "Pumpkin, Spinach, Green Pepper, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Wild Grape, Mayonnaise, Milk, Cheese, Wool, Yarn Ball, Honey, SUGDW Apple, Grape Juice, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Sweet Potato (dish), Greens, Boiled Egg, Hot Milk, Cheesecake, Apple Jam, Apple Pie, Sushi, Jam Bun, Dinner Roll, Cookie, Ice Cream, Cake, Golden Egg, Fruit Latte, Mixed Latte, Ketchup, Jewelry.",
+      "dislike": "Veggie Pancake, Fried Rice, Curry, Pickled Turnips, Fries, Pickles, Happy Eggplant, Butter.",
+      "disgusting": "Stone, Branch, Lumber, Weeds, Ketchup Recipe, Fodder, Chicken Feed, Fish Food, Food Fiasco, Garbage, Fries Recipe, Bandage, Dead Weeds, Winter Stone, Winter Branch, Winter Lumber",
+      "rival": "Sainganmu adalah Gray. Gray akan menikahi Mary jika kamu tidak menikahinya"
+    },
+    {
+      "name": "Popuri",
+      "birthday": "3 Summer (tanggal 10 Summer jika ulangtahunmu tanggal 3 Summer",
+      "description": "Gadis ini memiliki rambut berwarna merah muda sama seperti ibunya. Ia memakai baju merah dan memakai bando. Popuri merupakan gadis yang paling mudah didekati, karena setiap kali kamu bicara padanya, dia akan semakin suka padamu. Ia cengeng, mudah dirayu dan menyukai binatang-binatang di hutan. Ia dianggap gadis yang belum dewasa oleh penduduk desa. Hari ulangtahunnya adalah tanggal 3 Summer (tanggal 10 Summer jika ulangtahunmu tanggal 3 Summer).\n Walaupun ia kasar padamu sebelum mengenalmu lebih dekat, namun dia sangat manis jika kamu sudah dekat dengannya. Ayahnya tidak ada di desa ini, dia pergi mencari bunga gurun pasir atau bunga sedekade untuk mengobati istrinya (Lillia). Popuri memiliki seorang kakak laki-laki yang bernama Rick yang membantu di peternakan ayam mereka.",
+      "routine": "Tempat Untuk Menemuinya : \n Setiap hari kecuali Minggu : \n (6 am – 7 am) Di rumahnya \n (7.45 am – 10 am) Di kolam pemandian air panas \n (10.45 am – Seterusnya) Di rumahnya \n Minggu : \n (6 am – 9 am) Di rumahnya \n(9.30 am – 1 am) Di gereja \n (1.30 pm – 5.30 pm) Di alun-alun desa \n(6 pm – Seterusnya) Di rumahnya \n Hari hujan (Minggu) : \n (6 am – 9 am) Di rumahnya \n (9.30 am – 1 am) Di gereja \n (1.30 pm – Seterusnya) Di rumahnya",
+      "great_gift": "Pink Cat Flower, Toy Flower, Spa-Boiled Egg, Honey, Fruit Juice, Sandwich, Strawberry Jam, Strawberry Milk, Scrambled Eggs, Omelet, Boiled Egg, Hot Milk, Apple Jam, Apple Pie, Ice Cream, Cake, Chocolate, Chocolate Cake, Relaxation Tea, Rice Omelet, Jewelry.",
+      "good_gift": "Strawberry, Tomato, Corn, Pineapple, Blue Magic Red Flower, Red Magic Red Flower, Orange Cup Fruit, Apple, Truffle, Egg, Mayonnaise, Milk, Yarn Ball, SUGDW Apple, Bread, Grape Juice, Flour, Veggie Pancake, Stew, Salad, Fries, Popcorn, Pumpkin Pudding, Sweet Potato (dish) Bamboo Rice, Mushroom Rice, Grape Jam, Chirashi Sushi, Fried Noodles, Tempura, Wool G, Relaxation Tea Leaves, Ketchup.",
+      "dislike": "Turnip, Pumpkin, Eggplant, Green Pepper, Cheese, Vegetable Juice, Mixed Juice, Pickled Turnips, Tomato Juice, Happy Eggplant, Cheese Fondue, Pizza, Fruit Latte, Veggie Latte, Mixed Latte.",
+      "disgusting": "Stone, Branch, Lumber, Poisonous Mushroom, Blue Grass, Red Grass, Green Grass, Mystrile, Orichalcum, Ketchup Recipe, Fodder, Chicken Feed, Gold Ore, Silver Ore, Copper Ore, Fish Food, Bodigizer, Bodigizer XL, Turbojolt, Turbojolt XL, Wine, Food Fiasco, Garbage, Fries Recipe, Bandage, Winter Stone, Winter Branch, Winter Lumber.",
+      "rival": "Sainganmu adalah Kai. Kai akan menikahi Popuri jika kamu tidak menikahinya."
+    }
+  ],
+  "spirit_chara": [
+    {
+      "name": "Chef",
+      "birthday": "14 Fall",
+      "description": "Chef adalah juru masak di kalangan kurcaci. Chef yang senang bekerja dan dia sangat periang, sangat mudah untuk diajak berteman. Chef adalah kurcaci merah.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Nappy",
+      "birthday": "22 Winter",
+      "description": "Nappy adalah kurcaci yang sangat suka bermain, meskipun dia bukan kurcaci yang senang bila disuruh bekerja namun Nappy akan membantumu di kebun jika kamu memintanya. Nappy adalah kurcaci jingga.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Timid",
+      "birthday": "16 Summer",
+      "description": "Timid adalah kurcaci yang sangat penakut. Dia tidak suka bekerja dengan binatang karena menurutnya binatang sangat mengerikan dengan tubuh mereka yang besar. Timid adalah kurcaci hijau",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Hoggy",
+      "birthday": "10 Fall",
+      "description": "Hoggy adalah kurcaci yang sangat pemalas. Hoggy sangat rakus dan sangat suka sekali tidur. Tapi Hoggy bisa diandalkan jika dimintai pekerjaan. Hoggy adalah kurcaci kuning.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Staid",
+      "birthday": "15 Spring",
+      "description": "Staid adalah kurcaci yang sangat mencintai pekerjaan dan serius dalam bekerja. Dia akan dengan senang hati menerima setiap pekerjaan yang kamu tawarkan padanya. Staid adalah kurcaci biru tua.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Bold",
+      "birthday": "4 Spring",
+      "description": "Bold adalah kurcaci yang paling netral diantara semuanya. Bold tidak begitu suka bekerja dan bukan termasuk kurcaci yang malas. Bold adalah kurcaci ungu.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    },
+    {
+      "name": "Aqua",
+      "birthday": "26 Spring",
+      "description": "Aqua adalah kurcaci yang sangat memperhatikan penampilan. Aqua sangat tidak suka jika bajunya ada noda kotor sedikitpun. Tapi dia tetap bisa diandalkan jika kamu meminta bantuannya untuk bekerja. Aqua adalah kurcaci biru muda.",
+      "routine": "Gubuk Kurcaci, Kebun mu",
+      "great_gift": "Wild Grape, Yarn Ball, Honey, Bread, Bodigizer, Bodigizer XL, Turbojolt XL, Wine, Flour, Fruit Juice, Mixed Juice, Strawberry Jam, Strawberry Milk, Pumpkin Pudding, Sweet Potato (dish), Omelet, Hot Milk, Butter, Apple Jam, Apple Pie, Grape Jam, Raisin Bread, Pizza, Cookie, Cake, Chocolate Cookie, Chocolate Cake, Relaxation Tea Leaves, Relaxation Tea, Jewelry.",
+      "good_gift": "Turnip, Strawberry, Pumpkin, Pineapple, Carrot, Spinach, Moondrop Flower, Pink Cat Flower, Blue Magic Red Flower, Red Magic Red Flower, Toy Flower, Orange Cup Fruit, Apple, Truffle, Blue Grass, Red Grass, Egg, Mayonnaise, Milk, Cheese, Wool, SUGDW Apple, Turbojolt, Grape Juice, Oil, Stew, Vegetable Juice, Tomato Juice, Boiled Egg, Cheesecake, Cheese Fondue, Mushroom Rice, Jam Bun, Ice Cream, Golden Egg, Chocolate, Fruit Latte, Mixed Latte, Rice Omelet.",
+      "dislike": "Large Fish, Medium Fish, Curry Powder, Pickled Turnips, Pickles, Happy Eggplant, Greens, Scrambled Eggs, Sushi, Chirashi Sushi, Sashimi,Noodles, Curry Noodles, Tempura Noodles, Fried Noodles.",
+      "disgusting": "Stone, Branch, Weeds, Poisonous Mushroom, Green Grass, Mystrile, Orichalcum, Adamantite, Gold Ore, Silver Ore, Copper Ore, Food Fiasco, Garbage, Fries Recipe, Dead Weeds, Winter Stone, Winter Branch."
+    }
+  ]
+}
