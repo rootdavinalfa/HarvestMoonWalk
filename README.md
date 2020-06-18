@@ -3,6 +3,11 @@
 
 HarvestMoonWalk is Application to see a list of Harvest Moon Back To the Nature Characters & Tools
 
+## Screenshot
+<span align="center"><img width="200px" height="360px" src="screenshot/ss1.png"></span>
+<span align="center"><img width="200px" height="360px" src="screenshot/ss2.png"></span>
+<span align="center"><img width="200px" height="360px" src="screenshot/ss3.png"></span>
+
 ## LEGAL
 Copyright 2020 Davin Alfarizky Putra Basudewa
 Common Creative License for any image asset on this project
