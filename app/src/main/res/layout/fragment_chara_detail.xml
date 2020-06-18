@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/charaDetailName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Harvest Goddess" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/charaDetailType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:checkable="false"
+        android:text="Spirit"
+        android:textColor="@color/white"
+        app:chipBackgroundColor="@color/darkYellow"
+        app:chipIcon="@drawable/ic_sun"
+        app:chipIconTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charaDetailName" />
+
+    <ImageView
+        android:id="@+id/charaDetailImage"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_princess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:scrollbars="vertical"
+        android:id="@+id/charaDetailDescription"
+        android:layout_width="0dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@id/charaDetailImage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charaDetailType"
+        tools:text="Jeff adalah pemilik supermarket lokal yang agak pasif. Dia pria yang sangat pemalu dan mudah dibodohi sehingga istrinya seringkali jengkel padanya karena sering dihutangi oleh penduduk desa. Jeff tampaknya takut pada istrinya, dia takut istrinya marah padanya" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/charaDetailBirthday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="29 Winter"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charaDetailDescription" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charaDetailBirthday">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="Routine"
+                app:chipIcon="@drawable/ic_time"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <TextView
+                android:id="@+id/charaDetailRoutine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="asasdsdadsasdadsasdasda\nasihfisahf\nsaufgufs" />
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="Great Gift"
+                app:chipIcon="@drawable/ic_heart"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <TextView
+                android:id="@+id/charaDetailGreat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="asasdsdadsasdadsasdasda\nasihfisahf\nsaufgufs" />
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="Good Gift"
+                app:chipIcon="@drawable/ic_ok"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <TextView
+                android:id="@+id/charaDetailGood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="asasdsdadsasdadsasdasda\nasihfisahf\nsaufgufs" />
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="Dislike"
+                app:chipIcon="@drawable/ic_dislike"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <TextView
+                android:id="@+id/charaDetailDislike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="asasdsdadsasdadsasdasda\nasihfisahf\nsaufgufs" />
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="Disgusting"
+                app:chipIcon="@drawable/ic_vomit"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+            <TextView
+                android:id="@+id/charaDetailDisgusting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="asasdsdadsasdadsasdasda\nasihfisahf\nsaufgufs" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

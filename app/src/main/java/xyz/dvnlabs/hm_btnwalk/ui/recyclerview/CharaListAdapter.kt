@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.Nullable
 import androidx.core.content.ContextCompat
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -18,6 +19,7 @@ import org.koin.core.inject
 import org.koin.core.parameter.parametersOf
 import xyz.dvnlabs.hm_btnwalk.R
 import xyz.dvnlabs.hm_btnwalk.model.Characters
+import xyz.dvnlabs.hm_btnwalk.ui.fragment.CharacterListDirections
 import xyz.dvnlabs.hm_btnwalk.utils.AssetParser
 
 class CharaListAdapter(private val itemRes: Int) :
@@ -53,23 +55,32 @@ class CharaListAdapter(private val itemRes: Int) :
         holder.name.text = data.name
         holder.birthday.text = data.birthday
 
-        var imageLocation = assetParser.getImageAsset("img/Character/${data.name}.png")
-        if (viewType == "maiden") {
-            imageLocation = assetParser.getImageAsset("img/Character/Waifu/${data.name}.png")
+        var imageData: ByteArray? = null
+        when (viewType) {
+            "maiden" -> {
+                imageData = assetParser.getImageAsset("img/Character/Waifu/${data.name}.png")
+            }
+            "normal" -> {
+                imageData = assetParser.getImageAsset("img/Character/${data.name}.png")
+            }
+            "spirit" -> {
+                imageData = assetParser.getImageAsset("img/Character/Spirit/${data.name}.png")
+            }
+
         }
         Glide.with(context!!)
             .applyDefaultRequestOptions(
                 RequestOptions()
                     .error(R.drawable.ic_agriculture)
             )
-            .load(imageLocation)
+            .load(imageData)
             .transition(
                 DrawableTransitionOptions()
                     .crossFade()
             )
             .apply(
                 RequestOptions()
-                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .diskCacheStrategy(DiskCacheStrategy.NONE)
             ).into(holder.charaImage)
     }
 
@@ -85,7 +96,6 @@ class CharaListAdapter(private val itemRes: Int) :
     }
 
     internal fun setCharacterList(type: String, character: List<Characters>) {
-        println("ADAPTER TYPE: $type")
         val diffCallback = CharactersDiff(character, this.characters)
         val diffResult = DiffUtil.calculateDiff(diffCallback)
         this.characters = character
@@ -94,11 +104,24 @@ class CharaListAdapter(private val itemRes: Int) :
     }
 
 
-    inner class CharaListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class CharaListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
+        View.OnClickListener {
         val root = itemView.charaRoot
         val name = itemView.charaName
         val birthday = itemView.charaBirthday
         val charaImage = itemView.charaImage
+
+        init {
+            itemView.setOnClickListener(this)
+        }
+
+        override fun onClick(v: View?) {
+            val navController = itemView.findNavController()
+            val action = CharacterListDirections.actionCharacterListToCharacterDetail()
+                .setCharaType(viewType!!)
+                .setIndex(adapterPosition)
+            navController.navigate(action)
+        }
     }
 
     inner class CharactersDiff(

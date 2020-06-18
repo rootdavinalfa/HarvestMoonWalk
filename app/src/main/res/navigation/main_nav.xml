@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/fragmentMenu">
+
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.FragmentMenu"
+        android:label="FragmentMenu">
+        <action
+            android:id="@+id/action_fragmentMenu_to_characterList"
+            app:destination="@id/characterList"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterList"
+        android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.CharacterList"
+        android:label="CharacterList">
+        <action
+            android:id="@+id/action_characterList_to_characterDetail"
+            app:destination="@id/characterDetail"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetail"
+        android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.CharacterDetail"
+        android:label="Detail">
+        <action
+            android:id="@+id/action_characterDetail_self"
+            app:destination="@id/characterDetail" />
+        <argument
+            android:name="charaType"
+            app:argType="string"
+            android:defaultValue="normal" />
+        <argument
+            android:name="index"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>
