@@ -17,6 +17,7 @@ import xyz.dvnlabs.hm_btnwalk.databinding.FragmentCharaDetailBinding
 import xyz.dvnlabs.hm_btnwalk.model.Characters
 import xyz.dvnlabs.hm_btnwalk.ui.viewmodel.CharacterViewModel
 import xyz.dvnlabs.hm_btnwalk.utils.AssetParser
+import java.util.*
 
 class CharacterDetail : FragmentHost() {
     private val assetParser: AssetParser by inject()
@@ -41,6 +42,7 @@ class CharacterDetail : FragmentHost() {
         return binding!!.root
     }
 
+    @ExperimentalStdlibApi
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         when (args.charaType) {
             "maiden" -> {
@@ -62,7 +64,7 @@ class CharacterDetail : FragmentHost() {
         binding!!.charaDetailDescription.movementMethod = ScrollingMovementMethod()
         binding!!.charaDetailBirthday.text = currentData?.birthday
         binding!!.charaDetailName.text = currentData?.name
-        binding!!.charaDetailType.text = args.charaType
+        binding!!.charaDetailType.text = args.charaType.capitalize(Locale.ROOT)
         binding!!.charaDetailDescription.text = currentData?.description
         binding!!.charaDetailGreat.text = currentData?.greatGift
         binding!!.charaDetailGood.text = currentData?.goodGift

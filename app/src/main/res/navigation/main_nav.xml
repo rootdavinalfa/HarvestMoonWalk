@@ -15,6 +15,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_fragmentMenu_to_about2"
+            app:destination="@id/aboutNav"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/characterList"
@@ -37,11 +44,15 @@
             app:destination="@id/characterDetail" />
         <argument
             android:name="charaType"
-            app:argType="string"
-            android:defaultValue="normal" />
+            android:defaultValue="normal"
+            app:argType="string" />
         <argument
             android:name="index"
-            app:argType="integer"
-            android:defaultValue="0" />
+            android:defaultValue="0"
+            app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutNav"
+        android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.About"
+        android:label="About Application" />
 </navigation>

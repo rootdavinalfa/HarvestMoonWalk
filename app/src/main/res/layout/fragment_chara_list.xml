@@ -7,10 +7,10 @@
 
     <ImageView
         android:id="@+id/charaBack"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="22dp"
         android:clickable="true"
         android:focusable="true"
         android:foreground="?actionBarItemBackground"
@@ -24,13 +24,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="Character"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/charaBack"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.chip.ChipGroup

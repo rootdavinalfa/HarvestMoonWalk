@@ -27,6 +27,9 @@ class FragmentMenu : FragmentHost() {
         binding!!.characterMenu.setOnClickListener {
             navController.navigate(R.id.action_fragmentMenu_to_characterList)
         }
+        binding!!.about.setOnClickListener {
+            navController.navigate(R.id.action_fragmentMenu_to_about2)
+        }
 
     }
 }
