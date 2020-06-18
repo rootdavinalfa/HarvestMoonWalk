@@ -15,6 +15,11 @@ This application can't be made without:
  3. Material Design
  4. Navigation Component
  5. Glide
+ 
+## Made possible by
+ 1. Davin Alfarizky Putra Basudewa
+ 2. M.Izzat
+ 3. Syahrul Febrianto
 
 ## Contribute
 You can make issues or make a PR for improving this project.
