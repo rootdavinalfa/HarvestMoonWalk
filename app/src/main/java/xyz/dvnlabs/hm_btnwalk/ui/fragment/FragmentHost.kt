@@ -27,6 +27,7 @@ open class FragmentHost : Fragment() {
             when (destination.id) {
                 R.id.fragmentMenu -> toolbar.visibility = View.GONE
                 R.id.characterList -> toolbar.visibility = View.GONE
+                R.id.toolListFragment -> toolbar.visibility = View.GONE
                 else -> toolbar.visibility = View.VISIBLE
             }
         }

@@ -1,0 +1,207 @@
+{
+	"tools": [
+	{
+		"name": "Axe",
+		"description": "Kapak berguna untuk menghancurkan batang kayu (Branch) dan pangkal pohon yang ada di hutan. Pada awal permainan kapakmu hanya dapat memotong batang kayu saja. Jika kamu mengupgradenya, kapakmu dapat memotong pangkal pohon dan hal ini merupakan cara yang baik untuk menambak stok kayu kamu untuk memperluas/merenovasi rumah dan kandang ternak. Kamu dapat menemukan alat ini di dalam kotak peralatan di awal permainan.",
+		"how2get": "Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah.",
+		"price": "Gratis.",
+		"upgrade": "Masih dalam tahap perkembangan."
+	},
+	{
+		"name": "Hammer",
+		"description": "Palu berguna untuk menghancurkan batu kecil dan batu besar yang ada di perkebunanmu. Pada awal permainan kamu hanya bisa menghancurkan batu kecil saja. Tapi, setelah kamu mengupgradenya sebanyak 2x palu bisa menghancurkan batu besar juga. Kamu bisa menemukan alat ini di dalam kotak peralatan di awal permainan.",
+		"how2get": "Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah.",
+		"price": "Gratis.",
+		"upgrade": "Masih dalam tahap perkembangan."
+	},	
+	{
+		"name": "Hoe",
+		"description": "Cangkul berguna untuk menggemburkan tanah di perkebunanmu sebelum kamu menebarkan benih. Jika tidak dicangkul, benih yang kamu tebarkan akan langsung hilang. Pada awal permainan kamu hanya bisa menggemburkan tanah sebanyak 1 kotak. Tapi jika kamu telah mengupgradenya, kamu bisa menggemburkan tanah sebanyak 5 kotak segaris. Kamu bisa menemukan alat ini di dalam kotak peralatan di awal permainan.",
+		"how2get": "Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah.",
+		"price": "Gratis.",
+		"upgrade": "Masih dalam tahap perkembangan"
+	},	
+	{
+		"name": "Sickle",
+		"description": "Digunakan untuk memotong rumput liar yang tumbuh di perkebunanmu dan untuk memotong rumput di perkebunanmu yang nantinya akan jadi pakan ternak. Pada awal permainan kamu hanya bisa memotong 1 buah rumput dalam sekali jalan. Namun jika kamu telah mengupgradenya, kamu bisa memotong rumput hingga 5x5 petak. Kamu bisa menemukan alat ini di dalam kotak peralatan di awal permainan.",
+		"how2get": "Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah.",
+		"price": "Gratis.",
+		"upgrade": "Masih dalam tahap perkembangan"
+	},	
+	{
+		"name": "Watering Can",
+		"description": "Digunakan untuk menyiram tanamen. Pada awal permainan kamu hanya bisa menyiram tanamen 1 petak saja dalam sekali siram. Namun jika kamu telah mengupgradenya, kamu bisa menyiram sebanyak 3x5 petak. Kamu bisa mengisi air untuk menyiram tanamen di mana saja asal ada sumber air dengan menekan tombol kotak. Kamu bisa menemukan alat ini di dalam kotak peralatan di awal permainan.",
+		"how2get": "Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah.",
+		"price": "Gratis.",
+		"upgrade": "Masih dalam tahap perkembangan."
+	},
+	{
+		"name": "Rucksack",
+		"description": "Kamu dapat membawa hasil kebun dan hasil hutan yang kamu temukan dengan menggunakan ransel. Pada awal permainan, kamu hanya dapat membawa 3 peralatan dan 3 barang. Kamu dapat mengupgrade ranselmu sebanyak 2x. Kamu dapat mengupgradenya dengan membeli ransel yang lebih besar di supermarket. Untuk upgrade pertama, kamu bisa membawa 5 alat dan 5 barang. Untuk upgrade kedua, kamu bisa membawa hingga 9 alat dan 9 barang. Kamu memerlukan ransel hingga upgradean terakhir agar dapat memuat lebih banyak barang bawaan dan hasil hutan. Harga ransel memang cukup mahal, namun ini sebanding dengan apa yang diberikannya.",
+		"how2get": "Small Rucksack dapat di awal game, Medium dan Large Rucksack dapat di beli di Supermarket.",
+		"price": "Gratis",
+		"upgrade": "Medium Rucksack : 3.000G \n Large Rucksack : 5.000G"
+	},
+	{
+		"name": "Basket",
+		"description": "Alat ini sangat berguna untuk memanen atau menambang. Kamu dapat menyimpan 30 barang sekaligus untuk dijual. Alat ini agak mahal, tapi sebanding dengan fungsinya yang sangat menghemat waktu. Kamu dapat membelinya di supermarket dengan price 5000G. Barang yang dimasukkan di keranjang tidak dapat di ambil lagi, jadi pastikan hanya barang yang akan dijual saja yang kamu lemparkan kedalamnya.",
+		"how2get": "Kamu bisa membeli alat ini di Supermarket.",
+		"price": "5.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Dog Ball",
+		"description": "Bola anjing ini akan ditawarkan oleh Won untuk pertama kalinya saat tanggal 1 Fall. Won akan datang ke rumahmu dan memintamu untuk membeli bola anjing ini karena hanya dia yang menual bola anjing tersebut. Kamu tidak dapat menolaknya sehingga kamu harus membelinya. Gunakanlah bola anjing ini untuk melatih anjingmu, semakin sering anjingmu di latih akan semakin besar kemungkinanmu untuk memenangkan Festival Balap Anjing.",
+		"how2get": "Kamu bisa membeli alat ini dari Won saat Tanggal 1 Fall.",
+		"price": "100G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Bell",
+		"description": "Lonceng digunakan untuk memanggil sapi dan dombamu. Alat ini sangat berguna untuk memindahkan dengan cepat sapi dan dombamu. Kamu bisa menggunakan alat ini untuk memindahkan ternakmu ke luar kandang atau sebaliknya. Cara kerja alat ini, kamu cukup membunyikannya saja, nanti sapi dan domba akan menghampirimu. ",
+		"how2get": "Kamu bisa membeli alat ini di pertenakan Yodel atau di Kakek Barley.",
+		"price": "500G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Brush",
+		"description": "Sikat digunakan untuk menyikat tubuh sapi, domba, dan kuda. Jika kamu menyikat hewanmu maka ia akan semakin menyukaimu dan kualitas produk yang dihasilkan akan meningkat. Jika kamu rajin menyikat hewanmu maka produk yang dihasilkan dapat dijual dengan price yang lebih mahal.",
+		"how2get": "Kamu bisa membeli alat ini di toko Pandai Besi milik Saibara.",
+		"price": "800G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Milker",
+		"description": "Pemerah susu digunakan untuk memerah sapi yang sudah dewasa agara menghasilkan susu.",
+		"how2get": "Kamu dapat membeli alat ini di toko Pandai Besi milik Saibara.",
+		"price": "2.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Clipper",
+		"description": "Pemangkas digunakan untuk memangkas bulu domba. Memangkas bulu domba bukan hanya dapat menghasilkan wool tapi juga akan membuat dombamu menjadi senang.",
+		"how2get": "Kamu dapat membelinya di toko Pandai Besi milik Saibara.",
+		"price": "1.800G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Blue Feather",
+		"description": "Bulu Biru digunakan untuk melamar gadis yang ingin kamu nikahi. bulu biru akan dijual di supermarket setidaknya saat salah satu gadis memiliki hati berwarna jingga (orange).",
+		"how2get": "Kamu dapat membelinya di supermarket atau juga bisa beli di Won.",
+		"price": "Supermarket : 1.500G \n Won : 30.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Fishing Rod",
+		"description": "Alat ini adalah alat pancing pertama yang kamu dapatkan dari Greg. Alat pancing ini dapat kamu gunakan untuk memancing di danau, sungai, dan pantai. Memancing merupakan cara alternative mencari uang yang cukup baik. ",
+		"how2get": "Kamu dapat mendapatkan alat pancing dengan menemui Greg pada hari Jum'at - Sabtu - dan Minggu di Dermaga. ",
+		"price": "Gratis.",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Fishing Pole",
+		"description": "Alat ini adalah alat pancing kedua yang kamu dapatkan dari Greg. Kamu dapat menggunakan alat pancing ini untuk mendapatkan ikan legendaris yang ada di Desa Mineral. Secara sekilas mungkin tidak terlihat perbedaan dengan pancingan yang pertama, namun jika diperhatikan perbedaannya terletak pada ujung kailnya atau umpannya.",
+		"how2get": "Kamu akan mendapatkan pancingan ini jika kamu sudah memiliki sekiranya 50 ekor ikan di kolam ikanmu.",
+		"price": "Gratis.",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Mayonnaise Maker",
+		"description": "Jika kamu telah memperluar kandang ayammu maka kamu dapat membeli pembuat mayonnaise. Letakkan telur ke dalam alat pembuat mayonnaise dan alat tersebut akan menghasilkan mayonnaise. Harga Mayonnaise lebih mahal dibandingkan price telur. Alat ini memang sangat mahal tapi sebanding dengan apa yang dihasilkan. ",
+		"how2get": "Kamu dapat membelinya di toko Pandai Besi Saibara dengan membawah sebuah Orichalcum dan Uang",
+		"price": "20.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Yarn Ball Maker",
+		"description": "Jika kamu sudah memperluas kandang ternakmu maka kamu dapat membeli mesin pembuat gulungan benang. Letakkan wool ke dalam alat pembuat gulungan benang dan alat tersebut akan menghasilkan gulungan benang. Harga gulungan benang lebih mahal dibandingkan price wool. Alat ini memang sangat mahal, tapi sebanding dengan apa yang dihasilkan",
+		"how2get": "Kamu dapat membelinya di toko Pandai Besi Saibara dengan membawah sebuah Orichalcum dan Uang",
+		"price": "20.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Cheese Maker",
+		"description": "Jika kamu sudah memperluas kandang ternakmu maka kamu dapat membeli mesin pembuat keju. Letakkan susu ke dalam alat pembuat keju dan alat tersebut akan menghasilkan keju. Harga keju lebih mahal dibandingkan price susu. Alat ini memang sangat mahal tapi sebanding dengan apa yang dihasilkan.",
+		"how2get": "Kamu dapat membelinya di toko Pandai Besi Saibara dengan membawah sebuah Orichalcum dan Uang",
+		"price": "20.000G",
+		"upgrade": "Tidak dapat di upgrade"
+	},
+	{
+		"name": "Cow Miracle Potion",
+		"description": "Jika sapi yang kamu ternakan sudah besar-besar, kamu bisa menggunakan alat ini. Alat ini berfungsi sebagai alat reproduksi, dimana sapi akan hamil saat kamu memberikan ini. Jadi, kalau  kamu mau irit, lebih baik beli alat ini dibandingkan beli sapinya langsung.",
+		"how2get": "Kamu bisa membeli alat ini di pertenakan Yodel atau di Kakek Barley.",
+		"price": "3.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Sheep Miracle Potion",
+		"description": "Jika kamu sudah membeli kambing dari Peternakan Yodel kamu bisa menggunakan alat ini. Alat ini bisa langsung kamu gunakan pada dombamu. Fungsinya sama seperti Cow.Miracle Potion, jadi kamu bisa membuat dombamu hamil dengan alat ini.",
+		"how2get": "Kamu bisa membeli alat ini di pertenakan Yodel atau di Kakek Barley.",
+		"price": "3.000G",
+		"upgrade": "Tidak dapat diupgrade."
+	},
+	{
+		"name": "Medicine",
+		"description": "Jika hewan ternakmu ada yang sakit maka kamu harusnya memberinya obat ini. Obat ini berfungsi untuk menyembuhkan hewan ternak yang sakit agar binatang ternakmu tidak mati.",
+		"how2get": "Obat ini bisa kamu dapatkan di Peternakan Poultry dan Peternakan Yodel.",
+		"price": "1.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Knife",
+		"description": "Sebuah Pisau digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "3.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Fryng Pan",
+		"description": "Sebuah Penggorengan digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "2.500G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Pot",
+		"description": "Sebuah Panci digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "2.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Mixer",
+		"description": "Sebuah Blender digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "2.500G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Whisk",
+		"description": "Sebuah Pengocok digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "1.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Rolling Pin",
+		"description": "Sebuah Penggiling digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "1.500G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Oven",
+		"description": "Sebuah Pemanggang digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "5.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	},
+	{
+		"name": "Set Bumbu",
+		"description": "Sebuah Set Bumbu digunakan untuk memasak.",
+		"how2get": "Tiap hari sabtu kamu dapat melihat channel TV Shopping dan memesannya melalui Telefon di Penginapan.",
+		"price": "5.000G",
+		"upgrade": "Tidak dapat di upgrade."
+	}
+  ]
+}

@@ -30,6 +30,9 @@ class FragmentMenu : FragmentHost() {
         binding!!.about.setOnClickListener {
             navController.navigate(R.id.action_fragmentMenu_to_about2)
         }
+        binding?.toolMenu?.setOnClickListener {
+            navController.navigate(R.id.action_fragmentMenu_to_toolListFragment)
+        }
 
     }
 }
