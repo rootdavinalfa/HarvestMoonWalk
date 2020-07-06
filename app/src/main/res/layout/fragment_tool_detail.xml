@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/toolDetailImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/toolDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/toolDetailImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Axe" />
+
+    <TextView
+        android:id="@+id/toolDetailTextDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/toolDetailHow2Get"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toolDetailImage"
+        app:layout_constraintTop_toBottomOf="@+id/toolDetailName"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Kapak berguna untuk menghancurkan batang kayu (Branch) dan pangkal pohon yang ada di hutan. Pada awal permainan kapakmu hanya dapat memotong batang kayu saja. Jika kamu mengupgradenya, kapakmu dapat memotong pangkal pohon dan hal ini merupakan cara yang baik untuk menambak stok kayu kamu untuk memperluas/merenovasi rumah dan kandang ternak. Kamu dapat menemukan alat ini di dalam kotak peralatan di awal permainan." />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="Upgrade"
+        app:chipBackgroundColor="@color/darkPink"
+        app:chipIcon="@drawable/ic_upgrade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolDetailHow2Get" />
+
+    <TextView
+        android:id="@+id/toolDetailUpgrade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip5"
+        tools:text="Tidak dapat di upgrade." />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:text="How to get"
+        app:chipBackgroundColor="@color/lightBlue"
+        app:chipIcon="@drawable/ic_know_how"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolDetailMoney" />
+
+    <TextView
+        android:id="@+id/toolDetailHow2Get"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip4"
+        tools:text="Di Awal Game - Dapat di ambil di Tools Box di dalam Rumah." />
+
+    <com.google.android.material.chip.Chip
+        android:textColor="@color/white"
+        app:chipIconTint="@color/white"
+        android:id="@+id/toolDetailMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="5.000G"
+        app:chipBackgroundColor="@color/darkYellow"
+        app:chipIcon="@drawable/ic_money"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolDetailImage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -65,5 +65,18 @@
     <fragment
         android:id="@+id/toolListFragment"
         android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.ToolList"
-        android:label="ToolList" />
+        android:label="ToolList" >
+        <action
+            android:id="@+id/action_toolListFragment_to_toolDetail"
+            app:destination="@id/toolDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/toolDetail"
+        android:name="xyz.dvnlabs.hm_btnwalk.ui.fragment.ToolDetail"
+        android:label="Tool Detail" >
+        <argument
+            android:name="selectedIndex"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
 </navigation>

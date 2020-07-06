@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.Nullable
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -17,6 +18,7 @@ import org.koin.core.inject
 import org.koin.core.parameter.parametersOf
 import xyz.dvnlabs.hm_btnwalk.R
 import xyz.dvnlabs.hm_btnwalk.model.Tools
+import xyz.dvnlabs.hm_btnwalk.ui.fragment.ToolListDirections
 import xyz.dvnlabs.hm_btnwalk.utils.AssetParser
 
 class ToolListAdapter(private val itemRes: Int) :
@@ -74,10 +76,10 @@ class ToolListAdapter(private val itemRes: Int) :
         }
 
         override fun onClick(v: View?) {
-            /*val navController = itemView.findNavController()
-            val action = CharacterListDirections.actionCharacterListToCharacterDetail()
-                .setIndex(adapterPosition)
-            navController.navigate(action)*/
+            val navController = itemView.findNavController()
+            val action = ToolListDirections.actionToolListFragmentToToolDetail()
+                .setSelectedIndex(adapterPosition)
+            navController.navigate(action)
         }
     }
 
